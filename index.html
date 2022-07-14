@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes App</title>
+    <script src="https://kit.fontawesome.com/1935d064dd.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="demo">
+            <h1>Notes App</h1>
+            <form action="">
+            <input type="text" id="demo2" placeholder="Note title">
+            <textarea id="demo3" placeholder="Note Details"></textarea>
+            </form>
+            <button id="demo4">Add Note</button> 
+        </div>
+    </header>
+    <section>
+        <div class="demo">
+            <h2>Your Notes</h2>
+            <hr>
+            <div id="notes">
+              <div class="note">
+                   <p class="demo8">Note ${index + 1}</p>
+                    <h3 class="demo2"> $element.title </h3>
+                    <p class="demo3"> $element.text</p>
+                     <button class="demo6">Delete Note</button>
+                    <button class="edit">Edit Note</button>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
