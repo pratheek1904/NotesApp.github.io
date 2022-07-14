@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    text-align: center;
+    color: blue;
+    line-height: 2px;
+}
+header form{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+form > * {
+    margin-bottom: 5px;
+    padding: 10px;
+    border:5px solid black;
+    
+
+}
+form textarea{
+    padding: 10px 0px 40px 20px;
+}
+#demo4{
+    padding:3px;
+    border-radius: 3px;
+    background-color: rgb(0, 255, 98);
+    margin-left: 5px;
+    
+}
+
+#demo4:hover{
+    background-color: aqua;
+}
+.demo5{
+    padding: 1rem;
+    border-radius: 10x;
+    margin: 1rem;
+    background-color:rgb(9, 128, 128);
+}
+.note{
+    background-color: aqua;
+}
+ 
+.demo6{
+    padding: 3px;
+    margin-top: 5px;
+    background-color: rgb(235, 239, 9);
+    border-radius: 3px;
+}
