@@ -7,10 +7,11 @@ h1{
     line-height: 2px;
 }
 header form{
+    text-align: center;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 350px;
 }
 form > * {
     margin-bottom: 5px;
@@ -41,6 +42,8 @@ form textarea{
 }
 .note{
     background-color: aqua;
+    display:flexbox;
+
 }
  
 .demo6{
